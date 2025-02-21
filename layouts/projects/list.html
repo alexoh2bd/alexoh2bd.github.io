@@ -1,0 +1,57 @@
+{{ define "main" }}
+  
+    
+      
+      {{ .Title }}
+      {{ .Content }}
+      {{ range .Pages }}
+          {{ $image := .Resources.GetMatch .Params.coverImage }}
+          {{ if $image }}
+            {{ $scaled := $image.Resize "800x" }}
+          {{ end }}
+
+              {{ if .Params.icon }}
+                    {{ partial "icon.html" .Params.icon }} 
+              {{ end }}
+              {{ .Title }}
+            
+
+            
+              {{ .Description }}
+            
+
+            
+            {{ if .Params.topics }}
+              
+                {{ range .Params.topics }}
+                  
+                    {{ . }}
+                  
+                {{ end }}
+              
+            {{ end }}
+
+            
+            {{ if .Params.status }}
+              
+                Status: {{ .Params.status }}
+              
+            {{ end }}
+
+            
+            
+              
+                Read More
+              
+              {{ if .Params.externalUrl }}
+                
+                  View Project →
+                
+              {{ end }}
+            
+          
+        
+      {{ end }}
+    
+  
+{{ end }}
