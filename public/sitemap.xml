@@ -10,10 +10,46 @@
   
     
       <url>
+            <loc>http://localhost:1313/projects/edas/</loc>
+          </url>
+    
+  
+    
+      <url>
             <loc>http://localhost:1313/</loc>
           </url>
     
   
+    
+      <url>
+            <loc>http://localhost:1313/posts/</loc>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/experiences/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/feb3_25/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/projects/project-mansfield/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/projects/</loc>
+          </url>
     
   
     

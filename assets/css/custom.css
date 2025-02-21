@@ -1,0 +1,35 @@
+/* Basic image styling */
+.prose img {
+    border-radius: 8px;           /* Rounded corners */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+    margin: 2rem auto;            /* Vertical spacing */
+    max-width: 100%;             /* Responsive width */
+    height: auto;                /* Maintain aspect ratio */
+}
+
+/* Image grid for experiences */
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.experience-grid img {
+    width: 100%;
+    height: 200px;              /* Fixed height */
+    object-fit: cover;          /* Maintain aspect ratio while filling container */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.experience-grid img:hover {
+    transform: scale(1.05);    /* Slight zoom on hover */
+}
+
+/* Caption styling */
+.image-caption {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #666;
+    margin-top: 0.5rem;
+}

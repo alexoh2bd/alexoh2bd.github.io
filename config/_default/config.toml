@@ -15,3 +15,5 @@ summaryLength = 0
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[params]
+  custom_css = ["/assets/css/custom.css"]
