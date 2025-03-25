@@ -9,10 +9,7 @@ description: "Sports Betting Bookie App!"
 
 This application should allow the user to place and track sports wagers. Each user will have an account that tracks their balance and history across site visits.
 
-## Github link
-
-https://github.com/alexoh2bd/Mansfield
-
+## [Github link](https://github.com/alexoh2bd/Mansfield)
 
 {{< figure
     src="../../../assets/img/mansfield.png"
@@ -29,3 +26,5 @@ https://github.com/alexoh2bd/Mansfield
 * Mock Cash ($5000 upon logging in for the first time)
 * Live Updated Payouts
 * Active Bet and Betting History Pages
+
+

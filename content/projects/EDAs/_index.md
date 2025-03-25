@@ -1,5 +1,5 @@
 ---
-title: "EDA Practice"
+title: "Kaggle Notebooks and EDA"
 Description: "I wanted to EDA practice and tried to consistently perform EDA once a day."
 ---
 

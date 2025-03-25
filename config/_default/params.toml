@@ -19,7 +19,7 @@ fingerprintAlgorithm = "sha256"
 
 [header]
   layout = "basic" # valid options: basic, hamburger, hybrid, custom
-  # logo = "img/logo.png"
+  logo = "assets/icons/favicon.ico"
   # logoDark = "img/dark-logo.jpg"
   showTitle = true
 

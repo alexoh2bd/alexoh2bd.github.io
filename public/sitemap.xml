@@ -4,13 +4,13 @@
   
     
       <url>
-            <loc>http://localhost:1313/about/</loc>
+            <loc>http://localhost:1313/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/</loc>
+            <loc>http://localhost:1313/about/</loc>
           </url>
     
   
@@ -24,19 +24,19 @@
   
     
       <url>
-            <loc>http://localhost:1313/projects/edas/</loc>
-          </url>
-    
-  
-    
-      <url>
             <loc>http://localhost:1313/experiences/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/feb3_25/</loc>
+            <loc>http://localhost:1313/projects/edas/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/projects/network-simulation/</loc>
           </url>
     
   
