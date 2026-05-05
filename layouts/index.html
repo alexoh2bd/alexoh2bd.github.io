@@ -1,0 +1,65 @@
+{{ define "main" }}
+<div class="page">
+  <aside class="sidebar" aria-label="About">
+    <header class="identity in-sidebar">
+      <img
+        class="profile-photo"
+        src="{{ "assets/img/content/profile.jpeg" | relURL }}"
+        alt="{{ .Site.Title }}"
+        width="120"
+        height="120"
+      />
+      <h1 class="name">{{ .Site.Title }}</h1>
+      <p class="about">{{ .Site.Params.bio }}</p>
+      <nav class="links" aria-label="Profiles">
+        <a href="mailto:{{ .Site.Params.email }}">Email</a>
+        <a href="{{ .Site.Params.github }}">GitHub</a>
+        <a href="{{ .Site.Params.scholar }}">Google Scholar</a>
+        <a href="{{ .Site.Params.linkedin }}">LinkedIn</a>
+      </nav>
+    </header>
+  </aside>
+
+  <main class="content" id="research">
+    <section class="block">
+      <h2 class="sr-only">Research</h2>
+
+      {{ .Content }}
+
+      <section class="theme" aria-labelledby="featured-heading">
+        <h3 id="featured-heading">Featured projects</h3>
+        <div class="project-grid project-grid--featured">
+          {{ range first 4 (where $.Site.Data.projects "featured" true) }}
+          <article class="card project-card">
+            <div class="card-head">
+              {{ with .subtitle }}<span class="chip chip--accent">{{ . }}</span>{{ end }}
+            </div>
+            <h4 class="card-title">{{ .title }}</h4>
+            {{ with .date }}<p class="card-meta">{{ . }}</p>{{ end }}
+            {{ with .blurb }}<p class="blurb">{{ . }}</p>{{ end }}
+            {{ with .links }}
+            <p class="extra">
+              {{ range $i, $link := . }}
+              {{ if $i }} · {{ end }}<a href="{{ $link.href }}"{{ if (hasPrefix $link.href "http") }} rel="noopener noreferrer" target="_blank"{{ end }}>{{ $link.label }}</a>
+              {{ end }}
+            </p>
+            {{ end }}
+          </article>
+          {{ end }}
+        </div>
+      </section>
+
+      <section class="theme" aria-labelledby="blog-heading">
+        <h3 id="blog-heading">From the blog</h3>
+        {{ $posts := where .Site.RegularPages "Section" "blog" }}
+        {{ with (index ($posts.ByDate.Reverse) 0) }}
+        <p class="latest-post">
+          <a class="latest-post-link" href="{{ .Permalink }}">{{ .Title }}</a>
+          <time class="teaser-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        </p>
+        {{ end }}
+      </section>
+    </section>
+  </main>
+</div>
+{{ end }}

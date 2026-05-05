@@ -1,0 +1,16 @@
+baseURL = "https://alexoh2bd.github.io/"
+languageCode = "en-us"
+title = "Alex Oh"
+disableKinds = ["taxonomy", "term"]
+buildFuture = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  description = "Alex Oh — research and projects."
+  bio = "I am a Master's student at Duke University studying Artificial Intelligence. My research interests include Self-Supervised Learning, JEPA models, and Reinforcement Learning."
+  email = "you@example.edu"
+  github = "https://github.com/alexoh2bd"
+  scholar = "https://scholar.google.com/citations?user=c1MhnXMAAAAJ&hl=en"
+  linkedin = "https://www.linkedin.com/in/alexoh2024/"

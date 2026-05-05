@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Crafter rollout collector",
+    "subtitle": "Web app · RL data & world models",
+    "date": "2026",
+    "featured": true,
+    "blurb": "Collect human and agent Crafter rollouts in the browser, demo trained policies with overlays, and compare world-model imagination to live frames (FastAPI + React; Railway + Vercel).",
+    "links": [
+      { "label": "Code", "href": "https://github.com/alexoh2bd/crafter-rollout-app" },
+      { "label": "Article", "href": "/blog/crafter-rollout-collector/" }
+    ]
+  },
+  {
+    "title": "Sycophancy probes",
+    "subtitle": "LLM interpretability · steering",
+    "date": "2026",
+    "featured": true,
+    "blurb": "Linear probes on MHA, MLP, and residual streams for sycophancy (TruthfulQA) and assertiveness (epistemic-integrity), with activation steering and R² head maps.",
+    "links": [
+      { "label": "Code", "href": "https://github.com/alexoh2bd/Sycophancy_Probes" },
+      { "label": "Article", "href": "/blog/sycophancy-probes-steering/" }
+    ]
+  },
+  {
+    "title": "Attack Embeddings",
+    "subtitle": "VLM robustness",
+    "date": "2024",
+    "featured": true,
+    "blurb": "Explores adversarial attacks and defenses around multimodal embeddings (e.g. OpenAI CLIP ViT-L/14). Replace with a precise one-sentence summary when ready.",
+    "links": [
+      { "label": "Code", "href": "https://github.com/alexoh2bd/Attack_Embeddings" }
+    ]
+  }
+]

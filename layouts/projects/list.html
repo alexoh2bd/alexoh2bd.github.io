@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="page page--simple">
+  <main class="content content--wide">
+    <h1 class="page-title">Projects</h1>
+    <div class="project-grid">
+      {{ range $.Site.Data.projects }}
+      <article class="card project-card">
+        <div class="card-head">
+          {{ with .subtitle }}<span class="chip chip--accent">{{ . }}</span>{{ end }}
+        </div>
+        <h4 class="card-title">{{ .title }}</h4>
+        {{ with .date }}<p class="card-meta">{{ . }}</p>{{ end }}
+        {{ with .blurb }}<p class="blurb">{{ . }}</p>{{ end }}
+        {{ with .links }}
+        <p class="extra">
+          {{ range $i, $link := . }}
+          {{ if $i }} · {{ end }}<a href="{{ $link.href }}"{{ if (hasPrefix $link.href "http") }} rel="noopener noreferrer" target="_blank"{{ end }}>{{ $link.label }}</a>
+          {{ end }}
+        </p>
+        {{ end }}
+      </article>
+      {{ end }}
+    </div>
+  </main>
+</div>
+{{ end }}
