@@ -1,9 +1,38 @@
 [
   {
+    "title": "LeDEEP: monocular depth estimation with LeJEPA",
+    "subtitle": "Computer vision · self-supervised learning · production API",
+    "date": "2026",
+    "featured": true,
+    "image": "/assets/img/projects/le_depth/preview.png",
+    "image_alt": "Drone input image (top) and LeJEPA depth prediction in inferno colormap (bottom)",
+    "blurb": "ViT-Small encoder trained with LeJEPA multi-view self-supervised learning and SIGReg regularization on 1280×720 drone footage (DDOS dataset), served via a Flask + Gunicorn REST API with sub-second inference on arbitrary images.",
+    "links": [
+      { "label": "Article", "href": "/blog/le-depth/" },
+      { "label": "Code", "href": "https://github.com/alexoh2bd/le_depth" }
+    ]
+  },
+  {
+    "title": "Scaling deep goal-conditioned RL with SIGReg-ISO",
+    "subtitle": "Self-supervised RL · representation learning",
+    "date": "2026",
+    "featured": true,
+    "image": "/assets/img/content/jaxgcrl1.png",
+    "image_alt": "Brax humanoid reaching goal with SIGReg-ISO regularization on actor trunk",
+    "blurb": "Applies Sketched Isotropic Gaussian Regularization to the actor trunk of a deep goal-conditioned RL network, preventing representation collapse at scale and improving humanoid evaluation success in Brax.",
+    "links": [
+      { "label": "Article", "href": "/blog/self-supervised-rl/" },
+      { "label": "W&B Report", "href": "https://api.wandb.ai/links/aho13-duke-university/x91o1azt" },
+      { "label": "Code", "href": "https://github.com/alexoh2bd/Self-Supervised-RL" }
+    ]
+  },
+  {
     "title": "Crafter rollout collector",
     "subtitle": "Web app · RL data & world models",
     "date": "2026",
     "featured": true,
+    "image": "/assets/img/projects/crafter-hwm.gif",
+    "image_alt": "World-model imagination rollout in the Crafter environment",
     "blurb": "Collect human and agent Crafter rollouts in the browser, demo trained policies with overlays, and compare world-model imagination to live frames (FastAPI + React; Railway + Vercel).",
     "links": [
       { "label": "Code", "href": "https://github.com/alexoh2bd/crafter-rollout-app" },
@@ -26,6 +55,8 @@
     "subtitle": "VLM robustness",
     "date": "2024",
     "featured": true,
+    "image": "/assets/img/projects/adv_clip/tom_brady.jpeg",
+    "image_alt": "CLIP attack comparison: original vs. Base vs. Large attack on a Patriots Quarterback image",
     "blurb": "Explores adversarial attacks and defenses around multimodal embeddings (e.g. OpenAI CLIP ViT-L/14). Replace with a precise one-sentence summary when ready.",
     "links": [
       { "label": "Code", "href": "https://github.com/alexoh2bd/Attack_Embeddings" }
