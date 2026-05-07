@@ -1,0 +1,7 @@
+{{ with .subtitle }}
+<div class="tag-row" role="list">
+  {{ range split . " · " }}
+  <span class="chip chip--tag" role="listitem">{{ strings.TrimSpace . }}</span>
+  {{ end }}
+</div>
+{{ end }}

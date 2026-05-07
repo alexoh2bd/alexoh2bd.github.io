@@ -20,7 +20,7 @@
         {{ end }}
         <div class="project-row-body">
           <div class="card-head">
-            {{ with .subtitle }}<span class="chip chip--accent">{{ . }}</span>{{ end }}
+            {{ partial "project-tags.html" . }}
           </div>
           <h4 class="card-title">{{ .title }}</h4>
           {{ with .date }}<p class="card-meta">{{ . }}</p>{{ end }}

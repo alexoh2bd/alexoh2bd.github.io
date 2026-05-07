@@ -4,7 +4,7 @@ description: "Alex Oh — research and projects."
 ---
 
 <section class="theme">
-  <h3>Scientific document retrieval</h3>
+  <h3>Research Publications</h3>
 
   <article class="entry">
     <div class="row-chips">
