@@ -1,5 +1,18 @@
 [
   {
+    "title": "Sentinel",
+    "subtitle": "Defense stocks · claims · credibility",
+    "date": "2026",
+    "featured": true,
+    "image": "/assets/img/projects/Sentinel.png",
+    "image_alt": "Sentinel defense system dashboard showing claim analysis metrics, pipeline status, and ticker coverage",
+    "blurb": "Defense Stock Claim Analyzer. Scrapes tweets about defense stocks, filters out bots, fetches the actual price movement and surrounding news, then labels each claim as exaggerated, accurate, or understated. Tracks account-level credibility to surface who's consistently right and who's full of it.",
+    "links": [
+      { "label": "Website", "href": "https://sentinel.michaelsaju.com/" },
+      { "label": "Code", "href": "https://github.com/sam-packer/Sentinel" }
+    ]
+  },
+  {
     "title": "LeDEEP: monocular depth estimation with LeJEPA",
     "subtitle": "Computer vision · self-supervised learning · production API",
     "date": "2026",
