@@ -1,0 +1,61 @@
+{{ define "main" }}
+<div class="page page--simple">
+  <main class="content content--wide">
+    {{- $isProjectsRoot := eq .File.Dir "projects" -}}
+    {{- if $isProjectsRoot -}}
+    <h1 class="page-title">Projects</h1>
+    {{ with .Content }}
+    <div class="post-body" style="margin-bottom: 1.75rem">
+      {{ . }}
+    </div>
+    {{ end }}
+    <div class="project-row-list">
+      {{ range $.Site.Data.projects }}
+      {{ $p := . }}
+      <article class="project-row">
+        {{ with $p.image }}
+        <div class="project-row-media">
+          <img src="{{ . }}" alt="{{ $p.image_alt }}" loading="lazy" />
+        </div>
+        {{ end }}
+        <div class="project-row-body">
+          <div class="card-head">
+            {{ with .subtitle }}<span class="chip chip--accent">{{ . }}</span>{{ end }}
+          </div>
+          <h4 class="card-title">{{ .title }}</h4>
+          {{ with .date }}<p class="card-meta">{{ . }}</p>{{ end }}
+          {{ with .blurb }}<p class="blurb">{{ . }}</p>{{ end }}
+          {{ with .links }}
+          <p class="extra">
+            {{ range $i, $link := . }}
+            {{ if $i }} · {{ end }}<a href="{{ $link.href }}"{{ if (hasPrefix $link.href "http") }} rel="noopener noreferrer" target="_blank"{{ end }}>{{ $link.label }}</a>
+            {{ end }}
+          </p>
+          {{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+    {{- else -}}
+    <a class="back-link" href="{{ "/projects/" | relURL }}">← All projects</a>
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Content }}
+    <div class="post-body">
+      {{ . }}
+    </div>
+    {{ end }}
+    {{ if .Pages }}
+    <ul class="blog-list" style="margin-top: 1.5rem">
+      {{ range .Pages.ByTitle }}
+      <li>
+        <a class="blog-row" href="{{ .Permalink }}">
+          <h3 class="blog-row-title">{{ .Title }}</h3>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+    {{- end -}}
+  </main>
+</div>
+{{ end }}

@@ -1,0 +1,6 @@
+<figure class="full-media">
+  <img src="{{ .Get "src" }}" alt="{{ with .Get "alt" }}{{ . }}{{ end }}" loading="lazy" />
+  {{ with .Get "caption" }}
+  <figcaption>{{ . }}</figcaption>
+  {{ end }}
+</figure>
