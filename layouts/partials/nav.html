@@ -1,5 +1,4 @@
 <nav class="site-nav" aria-label="Primary">
   <a href="{{ "/" | relURL }}"{{ if .IsHome }} aria-current="page"{{ end }}>Home</a>
-  <a href="{{ "/projects/" | relURL }}"{{ if eq .Section "projects" }} aria-current="page"{{ end }}>Projects</a>
   <a href="{{ "/blog/" | relURL }}"{{ if eq .Section "blog" }} aria-current="page"{{ end }}>Blog</a>
 </nav>

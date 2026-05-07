@@ -1,5 +1,31 @@
 [
   {
+    "title": "Sentinel",
+    "subtitle": "Defense stocks · claims · credibility",
+    "date": "2026",
+    "featured": true,
+    "image": "/assets/img/projects/Sentinel.png",
+    "image_alt": "Sentinel defense system dashboard showing claim analysis metrics, pipeline status, and ticker coverage",
+    "blurb": "Defense Stock Claim Analyzer. Scrapes tweets about defense stocks, filters out bots, fetches the actual price movement and surrounding news, then labels each claim as exaggerated, accurate, or understated. Tracks account-level credibility to surface who's consistently right and who's full of it.",
+    "links": [
+      { "label": "Website", "href": "https://sentinel.michaelsaju.com/" },
+      { "label": "Code", "href": "https://github.com/sam-packer/Sentinel" }
+    ]
+  },
+  {
+    "title": "One Haut Encoded",
+    "subtitle": "Fashion · recommender systems · H&M",
+    "date": "2025",
+    "featured": true,
+    "image": "/assets/img/projects/one_haut.png",
+    "image_alt": "One Haut Encoded interface showing a style profile and curated favourite clothing grid",
+    "blurb": "Fashion recommendation stack on the H&M Personalized dataset: popularity baseline, KNN content-based filtering (product metadata and ResNet50 image embeddings), and neural collaborative filtering. Includes a static demo and FastAPI backend for live inference.",
+    "links": [
+      { "label": "Website", "href": "https://one-haut-encoded.github.io/" },
+      { "label": "Code", "href": "https://github.com/One-Haut-Encoded/One-Haut-Encoded.github.io" }
+    ]
+  },
+  {
     "title": "LeDEEP: monocular depth estimation with LeJEPA",
     "subtitle": "Computer vision · self-supervised learning · production API",
     "date": "2026",
