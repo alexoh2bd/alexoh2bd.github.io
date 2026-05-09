@@ -1,46 +1,8 @@
 [
-  {
-    "title": "Sentinel",
-    "subtitle": "Defense stocks · claims · credibility",
-    "date": "2026",
-    "featured": true,
-    "image": "/assets/img/projects/Sentinel.png",
-    "image_alt": "Sentinel defense system dashboard showing claim analysis metrics, pipeline status, and ticker coverage",
-    "blurb": "Defense Stock Claim Analyzer. Scrapes tweets about defense stocks, filters out bots, fetches the actual price movement and surrounding news, then labels each claim as exaggerated, accurate, or understated. Tracks account-level credibility to surface who's consistently right and who's full of it.",
-    "links": [
-      { "label": "Website", "href": "https://sentinel.michaelsaju.com/" },
-      { "label": "Code", "href": "https://github.com/sam-packer/Sentinel" }
-    ]
-  },
-  {
-    "title": "One Haut Encoded",
-    "subtitle": "Fashion · recommender systems · H&M",
-    "date": "2025",
-    "featured": true,
-    "image": "/assets/img/projects/one_haut.png",
-    "image_alt": "One Haut Encoded interface showing a style profile and curated favourite clothing grid",
-    "blurb": "Fashion recommendation stack on the H&M Personalized dataset: popularity baseline, KNN content-based filtering (product metadata and ResNet50 image embeddings), and neural collaborative filtering. Includes a static demo and FastAPI backend for live inference.",
-    "links": [
-      { "label": "Website", "href": "https://one-haut-encoded.github.io/" },
-      { "label": "Code", "href": "https://github.com/One-Haut-Encoded/One-Haut-Encoded.github.io" }
-    ]
-  },
-  {
-    "title": "LeDEEP: monocular depth estimation with LeJEPA",
-    "subtitle": "Computer vision · self-supervised learning · production API",
-    "date": "2026",
-    "featured": true,
-    "image": "/assets/img/projects/le_depth/preview.png",
-    "image_alt": "Drone input image (top) and LeJEPA depth prediction in inferno colormap (bottom)",
-    "blurb": "ViT-Small encoder trained with LeJEPA multi-view self-supervised learning and SIGReg regularization on 1280×720 drone footage (DDOS dataset), served via a Flask + Gunicorn REST API with sub-second inference on arbitrary images.",
-    "links": [
-      { "label": "Article", "href": "/blog/le-depth/" },
-      { "label": "Code", "href": "https://github.com/alexoh2bd/le_depth" }
-    ]
-  },
+
   {
     "title": "Scaling deep goal-conditioned RL with SIGReg-ISO",
-    "subtitle": "Self-supervised RL · representation learning",
+    "subtitle": "Self-supervised Reinforcement Learning · Representation Learning · JAX Simulations",
     "date": "2026",
     "featured": true,
     "image": "/assets/img/content/jaxgcrl1.png",
@@ -53,8 +15,47 @@
     ]
   },
   {
+    "title": "Sentinel",
+    "subtitle": "Sensitivity Analysis · Time Series Analysis · Web Scraping",
+    "date": "2026",
+    "featured": true,
+    "image": "/assets/img/projects/Sentinel.png",
+    "image_alt": "Sentinel defense system dashboard showing claim analysis metrics, pipeline status, and ticker coverage",
+    "blurb": "Defense Stock Claim Analyzer. Scrapes tweets about defense stocks, filters out bots, fetches the actual price movement and surrounding news, then labels each claim as exaggerated, accurate, or understated. Tracks account-level credibility to surface who's consistently right and who's full of it.",
+    "links": [
+      { "label": "Website", "href": "https://sentinel.michaelsaju.com/" },
+      { "label": "Code", "href": "https://github.com/sam-packer/Sentinel" }
+    ]
+  },
+  {
+    "title": "One Haut Encoded",
+    "subtitle": "Neural Collaborative Filtering · Recommendation Systems · Real-Time Inference",
+    "date": "2025",
+    "featured": true,
+    "image": "/assets/img/projects/one_haut.png",
+    "image_alt": "One Haut Encoded interface showing a style profile and curated favourite clothing grid",
+    "blurb": "Fashion recommendation stack on the H&M Personalized dataset: popularity baseline, KNN content-based filtering (product metadata and ResNet50 image embeddings), and neural collaborative filtering. Includes a static demo and FastAPI backend for live inference.",
+    "links": [
+      { "label": "Website", "href": "https://one-haut-encoded.github.io/" },
+      { "label": "Code", "href": "https://github.com/One-Haut-Encoded/One-Haut-Encoded.github.io" }
+    ]
+  },
+  {
+    "title": "LeDEEP: monocular depth estimation with LeJEPA",
+    "subtitle": "LeJEPA · Self-Supervised Learning · Production API",
+    "date": "2026",
+    "featured": true,
+    "image": "/assets/img/projects/le_depth/preview.png",
+    "image_alt": "Drone input image (top) and LeJEPA depth prediction in inferno colormap (bottom)",
+    "blurb": "ViT-Small encoder trained with LeJEPA multi-view self-supervised learning and SIGReg regularization on 1280×720 drone footage (DDOS dataset), served via a Flask + Gunicorn REST API with sub-second inference on arbitrary images.",
+    "links": [
+      { "label": "Article", "href": "/blog/le-depth/" },
+      { "label": "Code", "href": "https://github.com/alexoh2bd/le_depth" }
+    ]
+  },
+  {
     "title": "Crafter rollout collector",
-    "subtitle": "Web app · RL data & world models",
+    "subtitle": "Web App · Reinforcement Learning & World Models",
     "date": "2026",
     "featured": true,
     "image": "/assets/img/projects/crafter-hwm.gif",
@@ -66,8 +67,8 @@
     ]
   },
   {
-    "title": "Sycophancy probes",
-    "subtitle": "LLM interpretability · steering",
+    "title": "Steering Mechanisms to Mitigate Sycophancy",
+    "subtitle": "LLM interpretability · AI Safety · Steering",
     "date": "2026",
     "featured": true,
     "blurb": "Linear probes on MHA, MLP, and residual streams for sycophancy (TruthfulQA) and assertiveness (epistemic-integrity), with activation steering and R² head maps.",
@@ -78,7 +79,7 @@
   },
   {
     "title": "Attack Embeddings",
-    "subtitle": "VLM robustness",
+    "subtitle": "VLM Robustness · Adversarial AI",
     "date": "2024",
     "featured": true,
     "image": "/assets/img/projects/adv_clip/tom_brady.jpeg",
