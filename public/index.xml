@@ -1,1 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alex Oh</title><link>https://alexoh2bd.github.io/</link><description>Recent content on Alex Oh</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alexoh2bd.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Crafter rollout collector: a web app for human &amp; agent data</title><link>https://alexoh2bd.github.io/blog/crafter-rollout-collector/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://alexoh2bd.github.io/blog/crafter-rollout-collector/</guid><description/></item><item><title>Steering experiments to reduce sycophancy (linear probes on LLM activations)</title><link>https://alexoh2bd.github.io/blog/sycophancy-probes-steering/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://alexoh2bd.github.io/blog/sycophancy-probes-steering/</guid><description/></item><item><title>Correcting overestimation bias with SIGReg + InfoNCE</title><link>https://alexoh2bd.github.io/blog/sigreg-infonce-overestimation/</link><pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate><guid>https://alexoh2bd.github.io/blog/sigreg-infonce-overestimation/</guid><description/></item><item><title>LeDEEP: monocular depth estimation with LeJEPA and SIGReg in production</title><link>https://alexoh2bd.github.io/blog/le-depth/</link><pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate><guid>https://alexoh2bd.github.io/blog/le-depth/</guid><description/></item><item><title>Scaling deep goal-conditioned RL with SIGReg-ISO</title><link>https://alexoh2bd.github.io/blog/self-supervised-rl/</link><pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate><guid>https://alexoh2bd.github.io/blog/self-supervised-rl/</guid><description/></item><item><title>Network Simulation</title><link>https://alexoh2bd.github.io/projects/network-simulation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alexoh2bd.github.io/projects/network-simulation/</guid><description/></item><item><title>Project Mansfield</title><link>https://alexoh2bd.github.io/projects/project-mansfield/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alexoh2bd.github.io/projects/project-mansfield/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alex Oh</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Alex Oh</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crafter rollout collector: a web app for human &amp; agent data</title>
+      <link>http://localhost:1313/blog/crafter-rollout-collector/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/crafter-rollout-collector/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Steering experiments to reduce sycophancy (linear probes on LLM activations)</title>
+      <link>http://localhost:1313/blog/sycophancy-probes-steering/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/sycophancy-probes-steering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Correcting overestimation bias with SIGReg &#43; InfoNCE</title>
+      <link>http://localhost:1313/blog/sigreg-infonce-overestimation/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/sigreg-infonce-overestimation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LeDEEP: monocular depth estimation with LeJEPA and SIGReg in production</title>
+      <link>http://localhost:1313/blog/le-depth/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/le-depth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scaling deep goal-conditioned RL with SIGReg-ISO</title>
+      <link>http://localhost:1313/blog/self-supervised-rl/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/self-supervised-rl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network Simulation</title>
+      <link>http://localhost:1313/projects/network-simulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/network-simulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Project Mansfield</title>
+      <link>http://localhost:1313/projects/project-mansfield/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project-mansfield/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -11,12 +11,7 @@
       />
       <h1 class="name">{{ .Site.Title }}</h1>
       <p class="about">{{ .Site.Params.bio }}</p>
-      <nav class="links" aria-label="Profiles">
-        <a href="mailto:{{ .Site.Params.email }}">Email</a>
-        <a href="{{ .Site.Params.github }}">GitHub</a>
-        <a href="{{ .Site.Params.scholar }}">Google Scholar</a>
-        <a href="{{ .Site.Params.linkedin }}">LinkedIn</a>
-      </nav>
+      {{ partial "social-nav.html" . }}
     </header>
   </aside>
 

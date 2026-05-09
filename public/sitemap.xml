@@ -1,1 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://alexoh2bd.github.io/</loc><lastmod>2026-05-20T00:00:00+00:00</lastmod></url><url><loc>https://alexoh2bd.github.io/blog/</loc><lastmod>2026-05-20T00:00:00+00:00</lastmod></url><url><loc>https://alexoh2bd.github.io/blog/crafter-rollout-collector/</loc><lastmod>2026-05-20T00:00:00+00:00</lastmod></url><url><loc>https://alexoh2bd.github.io/blog/sycophancy-probes-steering/</loc><lastmod>2026-05-20T00:00:00+00:00</lastmod></url><url><loc>https://alexoh2bd.github.io/blog/sigreg-infonce-overestimation/</loc><lastmod>2026-05-15T00:00:00+00:00</lastmod></url><url><loc>https://alexoh2bd.github.io/blog/le-depth/</loc><lastmod>2026-05-05T00:00:00+00:00</lastmod></url><url><loc>https://alexoh2bd.github.io/blog/self-supervised-rl/</loc><lastmod>2026-05-05T00:00:00+00:00</lastmod></url><url><loc>https://alexoh2bd.github.io/projects/edas/</loc></url><url><loc>https://alexoh2bd.github.io/projects/network-simulation/</loc></url><url><loc>https://alexoh2bd.github.io/projects/project-mansfield/</loc></url><url><loc>https://alexoh2bd.github.io/projects/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2026-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/crafter-rollout-collector/</loc>
+    <lastmod>2026-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/sycophancy-probes-steering/</loc>
+    <lastmod>2026-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/sigreg-infonce-overestimation/</loc>
+    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/le-depth/</loc>
+    <lastmod>2026-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/self-supervised-rl/</loc>
+    <lastmod>2026-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/edas/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/network-simulation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/project-mansfield/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+  </url>
+</urlset>
