@@ -25,8 +25,8 @@ summaryLength = 0
 
 [params]
   description = "Alex Oh — research and projects."
-  bio = "I am a Master's student at Duke University studying Artificial Intelligence. My research interests include Self-Supervised Learning, JEPA models, and Reinforcement Learning."
-  email = "you@example.edu"
+  bio = "My personal mission is to build AI systems that genuinely understand the world and interact with their environment responsibly. My research sits at the intersection of self-supervised learning, reinforcement learning, and AI safety: three areas I see as deeply connected. I study how models can learn structured world representations through JEPA architectures, and how RL agents can act reliably within them."
+  email = "alexoh2020@gmail.com"
   github = "https://github.com/alexoh2bd"
   scholar = "https://scholar.google.com/citations?user=c1MhnXMAAAAJ&hl=en"
   linkedin = "https://www.linkedin.com/in/alexoh2024/"
